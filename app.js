@@ -60,7 +60,7 @@ function storeTaskInLocal(task)
 {
   let tasks;
   if(localStorage.getItem('tasks') === null)
-    tasks = []
+    tasks = [];
   else
   {
     //Parse tasks as strings into JSON. Tasks can only be stored as strings
